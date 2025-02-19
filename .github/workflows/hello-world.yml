@@ -8,6 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: List files in repo
-      - run: echo "🎉 Hello world!"
-      - run: echo "The job was triggered by ${{ github.event_name }}"
-      - run: ls ${{ github.workspace }}
+        run: ls ${{ github.workspace }}
