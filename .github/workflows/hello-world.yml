@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 Hello world!"
-      - run: echo "The job was triggered by ${{ github.event_name }}
+      - run: echo "The job was triggered by ${{ github.event_name }}"
